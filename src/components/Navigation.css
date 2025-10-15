@@ -8,9 +8,8 @@
   --light-text: #f8f9fa;
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-  --brighter-color: rgb(
-    from var(--primary-color) calc(r * 1.2) calc(g * 1.2) calc(b * 1.2) / 0.8
-  );
+  --brighter-color: color-mix(in srgb, var(--primary-color) 80%, white);
+
 
   --border-radius: 12px;
 

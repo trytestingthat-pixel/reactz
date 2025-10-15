@@ -272,9 +272,7 @@
 .search-tab.active,
 .search-tab:hover,
 .voice-search:hover {
-  background: rgb(
-    from var(--primary-color) calc(r * 1.2) calc(g * 1.2) calc(b * 1.2) / 0.9
-  );
+  background:color-mix(in srgb, var(--primary-color) 90%, white);
   transform: translateY(-1px);
 }
 
