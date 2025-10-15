@@ -29,7 +29,7 @@ import {
   FaTruck,
   FaRulerCombined,
   FaTree,
-  FaVectorSquare,
+  FaVectorSquare
 } from "react-icons/fa";
 import { SiGooglemaps } from "react-icons/si";
 import {
