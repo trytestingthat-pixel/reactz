@@ -317,7 +317,7 @@ const AboutUs = () => {
                   <p className="position">{member.position}</p>
                   <p className="bio">{member.bio}</p>
                   <div className="social-links">
-                    <a href={member.social.linkedin} aria-label="LinkedIn">
+                    <a  href={member.social.linkedin} aria-label="LinkedIn">
                       <img
                         src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"
                         alt="LinkedIn"

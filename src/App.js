@@ -8,12 +8,7 @@ import ABOUT from "./components/about.js";
 import CONTACT from "./components/contact.js";
 import UNAVAILABLE from "./components/NotFound.js";
 import "./App.css";
-import { HashRouter  as Router, Routes, Route } from "react-router-dom";
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-// gfgfghfh
-
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
